@@ -1,15 +1,15 @@
 <template>
   <div>
-    <CKEditorVue />
+    <ChartVue />
   </div>
 </template>
 
 <script>
-import CKEditorVue from './components/CKEditor.vue';
+import ChartVue from './components/Chart.vue';
 export default {
   name: 'App',
   components: {
-    CKEditorVue,
+    ChartVue,
   }
 }
 </script>
