@@ -58,7 +58,7 @@ export default defineComponent({
     });
     const option = ref({
       title: {
-        text: "Traffic Sources",
+        text: "Ngodingbentar",
         left: "center"
       },
       tooltip: {
@@ -68,20 +68,20 @@ export default defineComponent({
       legend: {
         orient: "vertical",
         left: "left",
-        data: ["Direct", "Email", "Ad Networks", "Video Ads", "Search Engines"]
+        data: ["Kos", "Investasi", "Hiburan", "Lainnya", "Makan"]
       },
       series: [
         {
-          name: "Traffic Sources",
+          name: "Ngodingbentar",
           type: "pie",
           radius: "55%",
           center: ["50%", "60%"],
           data: [
-            { value: 335, name: "Direct" },
-            { value: 310, name: "Email" },
-            { value: 234, name: "Ad Networks" },
-            { value: 135, name: "Video Ads" },
-            { value: 1548, name: "Search Engines" }
+            { value: 335, name: "Kos" },
+            { value: 310, name: "Investasi" },
+            { value: 234, name: "Hiburan" },
+            { value: 135, name: "Lainnya" },
+            { value: 1548, name: "Makan" }
           ],
           emphasis: {
             itemStyle: {
